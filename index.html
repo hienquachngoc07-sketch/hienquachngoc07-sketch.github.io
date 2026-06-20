@@ -10,7 +10,136 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
+<body><!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Hien Quach is an independent iOS puzzle game developer building Block Stack QG and future mobile puzzle games." />
+  <title>Hien Quach | Indie iOS Puzzle Game Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
 <body>
+  <div class="background-orbs" aria-hidden="true">
+    <span></span><span></span><span></span>
+  </div>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="QG Games home">
+      <span class="brand-cube"></span>
+      <span>Hien Quach</span>
+    </a>
+    <nav>
+      <a href="#games">Games</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero reveal">
+      <div class="hero-copy">
+        <p class="eyebrow">Indie iOS Puzzle Game Developer</p>
+        <h1>Building addictive puzzle games for iOS.</h1>
+        <p class="hero-text">
+          Hi, I’m Hien Quach, an indie mobile game developer focused on creating polished puzzle experiences for iPhone and iPad. My current App Store release is <strong>Block Stack QG</strong>.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="#games">View my games</a>
+          <a class="button ghost" href="mailto:hienquach.2708@icloud.com">Contact developer</a>
+        </div>
+      </div>
+
+      <div class="game-visual" aria-label="Animated block stacking illustration">
+        <div class="phone">
+          <div class="phone-top"></div>
+          <div class="game-screen">
+            <div class="score">BEST 128</div>
+            <div class="stack">
+              <span class="block b1"></span>
+              <span class="block b2"></span>
+              <span class="block b3"></span>
+              <span class="block b4"></span>
+              <span class="block moving"></span>
+            </div>
+          </div>
+        </div>
+        <div class="spark s1"></div>
+        <div class="spark s2"></div>
+        <div class="spark s3"></div>
+      </div>
+    </section>
+
+    <section class="stats reveal" aria-label="Developer highlights">
+      <article><strong>iOS</strong><span>Primary platform</span></article>
+      <article><strong>Puzzle</strong><span>Game focus</span></article>
+      <article><strong>1+</strong><span>App Store release</span></article>
+    </section>
+
+    <section id="games" class="section reveal">
+      <div class="section-heading">
+        <p class="eyebrow">Featured game</p>
+        <h2>Block Stack QG</h2>
+      </div>
+      <div class="game-card">
+        <div>
+          <h3>Stack blocks. Chase your best score.</h3>
+          <p>
+            A simple yet challenging puzzle game where timing, precision, and strategy come together. Designed for quick sessions, replayability, and smooth mobile performance.
+          </p>
+          <ul class="feature-list">
+            <li>Timing-based puzzle gameplay</li>
+            <li>Clean, colorful visuals</li>
+            <li>Casual, skill-based challenge</li>
+            <li>Available for iPhone and iPad</li>
+          </ul>
+          <a class="button primary" href="https://apps.apple.com/us/app/block-stack-qg/id6776344934" target="_blank" rel="noreferrer">View on App Store</a>
+        </div>
+        <div class="tile-grid" aria-hidden="true">
+          <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section split reveal">
+      <div class="section-heading">
+        <p class="eyebrow">About</p>
+        <h2>Focused on puzzle games with polished feel.</h2>
+      </div>
+      <p>
+        I enjoy building games that are simple to learn, responsive to play, and satisfying to improve at. I am currently focused on puzzle games, mobile game design, iOS publishing, and growing Block Stack QG while preparing future projects.
+      </p>
+    </section>
+
+    <section id="contact" class="section contact reveal">
+      <div class="section-heading">
+        <p class="eyebrow">Contact</p>
+        <h2>Get in touch</h2>
+      </div>
+      <div class="contact-grid">
+        <a href="mailto:hienquachngoc07@gmail.com">
+          <span>GitHub / Website email</span>
+          <strong>hienquachngoc07@gmail.com</strong>
+        </a>
+        <a href="mailto:hienquach.2708@icloud.com">
+          <span>Apple Developer email</span>
+          <strong>hienquach.2708@icloud.com</strong>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Hien Quach / QG Games. Built for GitHub Pages.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
   <div class="background-orbs" aria-hidden="true">
     <span></span><span></span><span></span>
   </div>
